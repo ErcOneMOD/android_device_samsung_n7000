@@ -3,18 +3,18 @@
         "remote": "ErcOneMOD",
         "repository": "android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "revision": "lp-5.0"
+        "revision": "lp5.0"
     },
     {
         "remote": "ErcOneMOD",
         "repository": "android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
-        "revision": "lp-5.0"
+        "revision": "lp5.0"
     },
      {
         "remote": "TeamBliss-LP",
         "repository": "android_vendor_bliss",
         "target_path": "vendor/bliss",
-        "revision": "lp-5.0"
+        "revision": "lp5.0"
     }
 ]
