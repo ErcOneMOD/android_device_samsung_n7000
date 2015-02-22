@@ -1,0 +1,14 @@
+[
+    {
+        "remote": "github",
+        "repository": "android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "revision": "lp-5.0"
+    },
+    {
+        "remote": "github",
+        "repository": "ErcOneMOD/android_device_samsung_galaxys2-common",
+        "target_path": "device/samsung/galaxys2-common",
+        "revision": "lp-5.0"
+    }
+]
