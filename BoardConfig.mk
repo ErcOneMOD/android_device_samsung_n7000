@@ -36,6 +36,7 @@ TOUCH_BOOST_DEBUG := false
 GAMERMOD := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
+TARGET_USE_PIPE := true 
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxynote,n7000,N7000,GT-N7000
