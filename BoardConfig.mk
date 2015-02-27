@@ -37,6 +37,7 @@ GAMERMOD := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 USE_O3_OPTIMIZATIONS := true
+SUPPRES_UNUSED_WARNING := true
 
 
 # assert
