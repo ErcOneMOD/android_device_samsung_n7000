@@ -35,7 +35,7 @@ TARGET_TC_KERNEL := 4.10-linaro
 TOUCH_BOOST_DEBUG := false
 # GamerMod Optimizations
 GAMERMOD := true
-# BLISSIFY := true
+BLISSIFY := true
 BLISS_GRAPHITE := true
 BLISS_STRICT := true 
 BLISS_O3 := true
