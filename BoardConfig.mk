@@ -34,10 +34,10 @@ TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.10-linaro
 TOUCH_BOOST_DEBUG := false
 # GamerMod Optimizations
 GAMERMOD := true
-GRAPHITE_OPTS := true
-STRICT_ALIASING := true
-TARGET_USE_PIPE := true 
-USE_O3_OPTIMIZATIONS := true
+BLISSIFY := true
+BLISS_GRAPHITE := true
+BLISS_STRICT := true 
+BLISS_O3 := true
 SUPPRES_UNUSED_WARNING := true
 
 # assert
