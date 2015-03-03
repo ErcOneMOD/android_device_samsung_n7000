@@ -27,20 +27,28 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n7000/bluetooth
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
-TARGET_GCC_VERSION_ARM := 4.9
-TARGET_GCC_VERSION_EXP := 4.9
-TARGET_TC_ROM := 4.9 
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.10-linaro
+# TARGET_GCC_VERSION_ARM := 4.9
+# TARGET_GCC_VERSION_EXP := 4.9
+# TARGET_TC_ROM := 4.9 
+# TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.10-linaro
+# Inline kernel building lp
+TARGET_TC_KERNEL := 4.10-linaro
+TARGET_TC_ROM    := 4.9
 
-TOUCH_BOOST_DEBUG := false
+#TOUCH_BOOST_DEBUG := false
 # GamerMod Optimizations
-GAMERMOD := true
-GRAPHITE_OPTS := true
-STRICT_ALIASING := true
-TARGET_USE_PIPE := true 
-USE_O3_OPTIMIZATIONS := true
-SUPPRES_UNUSED_WARNING := true
+# GAMERMOD := true
+# GRAPHITE_OPTS := true
+# STRICT_ALIASING := true
+# TARGET_USE_PIPE := true 
+# USE_O3_OPTIMIZATIONS := true
+# SUPPRES_UNUSED_WARNING := true
 
+# Optimizations
+BLISS_O3         := true
+BLISS_GRAPHITE   := true 
+BLISS_STRICT     := true
+BLISSIFY         := true   
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxynote,n7000,N7000,GT-N7000
 
