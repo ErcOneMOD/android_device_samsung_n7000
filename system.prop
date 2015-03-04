@@ -2,7 +2,6 @@
 # system.prop for n7000
 #
 
-
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
 
@@ -12,4 +11,5 @@ persist.sys.media.use-awesome=true
 
 # Dalvik
 persist.sys.dalvik.multithread=true
+# cache partition is to small for dalvik-cache
 dalvik.vm.dexopt-data-only=1
