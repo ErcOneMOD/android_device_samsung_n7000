@@ -48,7 +48,7 @@ TARGET_TC_ROM    := 4.9
 BLISS_O3         := true
 BLISS_GRAPHITE   := true 
 BLISS_STRICT     := true
-BLISSIFY         := true   
+# BLISSIFY         := true   
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxynote,n7000,N7000,GT-N7000
 
