@@ -31,6 +31,10 @@ TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 # TARGET_GCC_VERSION_EXP := 4.9
 # TARGET_TC_ROM := 4.9 
 # TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.10-linaro
+
+# BlissPop Cinfigs
+Bliss_Build_Block := 1
+
 # Inline kernel building lp
 TARGET_TC_KERNEL := 4.10-linaro
 TARGET_TC_ROM    := 4.9
