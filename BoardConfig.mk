@@ -37,7 +37,7 @@ Bliss_Build_Block := 1
 
 # Inline kernel building lp
 TARGET_TC_KERNEL := 4.10-linaro
-TARGET_TC_ROM    := 4.9
+TARGET_TC_ROM    := 4.9-linaro
 
 #TOUCH_BOOST_DEBUG := false
 # GamerMod Optimizations
