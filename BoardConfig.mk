@@ -36,8 +36,8 @@ TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 Bliss_Build_Block := 1
 
 # Inline kernel building lp
-TARGET_TC_KERNEL := 4.10-linaro
-TARGET_TC_ROM    := 4.9-linaro
+TARGET_TC_KERNEL := linaro-4.9-cortex-a9
+TARGET_TC_ROM    := 4.9
 
 #TOUCH_BOOST_DEBUG := false
 # GamerMod Optimizations
@@ -52,7 +52,7 @@ TARGET_TC_ROM    := 4.9-linaro
 BLISS_O3         := true
 BLISS_GRAPHITE   := true 
 BLISS_STRICT     := true
-# BLISSIFY         := true   
+BLISSIFY         := true   
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxynote,n7000,N7000,GT-N7000
 
