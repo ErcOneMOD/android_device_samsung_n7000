@@ -3,7 +3,7 @@
         "remote": "ErcOneMOD",
         "repository": "android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "revision": "lp5.0"
+        "revision": "cm-12.0"
     },
     {
         "remote": "ErcOneMOD",
