@@ -36,7 +36,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 Bliss_Build_Block := 1
 
 # Inline kernel building lp
-TARGET_TC_KERNEL := 4.10-sm
+TARGET_TC_KERNEL := 4.10-linaro
 TARGET_TC_ROM    := 4.9-linaro
 
 #TOUCH_BOOST_DEBUG := false
