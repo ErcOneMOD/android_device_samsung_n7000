@@ -32,7 +32,8 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=320
+    ro.sf.lcd_density=320 \
+     net.tethering.noprovisioning=true
 
 # Sensors
 PRODUCT_PACKAGES += \
